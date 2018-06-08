@@ -1,3 +1,5 @@
+-- This file was automatically generated for the LuaDist project.
+
 -- `package` is the require-path.
 --
 --    Note: this must match the filename also.
@@ -15,13 +17,19 @@ version = "0.2-1"
 local url = "github.com/asmagill/mjolnir_asm.hydra"
 local desc = "Control the Mjolnir dock icon."
 
-source = {url = "git://" .. url, dir = "mjolnir_asm.hydra/dockicon/"}
-description = {
-  summary = desc,
-  detailed = desc,
-  homepage = "https://" .. url,
-  license = "MIT",
+-- LuaDist source
+source = {
+  tag = "0.2-1",
+  url = "git://github.com/LuaDist-testing/mjolnir._asm.hydra.dockicon.git"
 }
+-- Original source
+-- source = {url = "git://" .. url, dir = "mjolnir_asm.hydra/dockicon/"}
+-- description = {
+--   summary = desc,
+--   detailed = desc,
+--   homepage = "https://" .. url,
+--   license = "MIT",
+-- }
 
 -- Dependencies:
 
